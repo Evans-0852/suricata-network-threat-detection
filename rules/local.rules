@@ -1,0 +1,4 @@
+# Local rules for the Suricata detection lab
+# Detect ICMP Echo Requests directed toward HOME_NET.
+
+alert icmp any any -> $HOME_NET any (msg:"LAB ICMP traffic detected"; itype:8; sid:1000001; rev:1;)
