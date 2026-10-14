@@ -1,0 +1,21 @@
+# Runtime logs
+*.log
+eve.json
+fast.log
+stats.log
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# Local configuration may contain sensitive network details
+suricata.yaml
+*.local.yaml
+.env
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
